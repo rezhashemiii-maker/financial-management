@@ -1,0 +1,1246 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>جلسهٔ ۲ — صورت‌های مالی و تجزیه و تحلیل آن</title>
+<meta name="description" content="جزوهٔ کامل جلسهٔ دوم مدیریت مالی (فصل دوم) برای کنکور ارشد: ترازنامه، صورت سود و زیان، بهای تمام شدهٔ کالای فروش رفته، استهلاک، تجزیه و تحلیل افقی و عمودی، نسبت‌های نقدینگی و فعالیت، چرخهٔ عملیاتی و دورهٔ گردش وجه نقد، با فرمول‌ها، نمودارها و پاسخ تشریحی تست‌ها.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="../assets/styles.css">
+<script src="../assets/app.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="../index.html">
+      <span class="mark">م‌م</span>
+      <span>جزوهٔ مدیریت مالی</span>
+    </a>
+    <nav class="header-nav">
+      <a href="../index.html">صفحهٔ اصلی</a>
+      <a href="#tests">تست‌ها</a>
+      <a href="#cheatsheet">فرمول‌نامه</a>
+      <button class="theme-btn" type="button" aria-label="تغییر حالت نمایش">☾</button>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="kicker">جلسهٔ ۲ · فصل دوم</span>
+    <h1>صورت‌های مالی و تجزیه و تحلیل آن</h1>
+    <p>ترازنامه و صورت سود و زیان را خط‌به‌خط می‌شناسیم، بهای تمام شدهٔ کالای فروش رفته و استهلاک را درمی‌آوریم، و بعد می‌رویم سراغ قلب فصل: نسبت‌های مالی، چرخهٔ عملیاتی و دورهٔ گردش وجه نقد — با روش کدگذاری «گردش و دوره» که دیگر لازم نباشد فرمول حفظ کنی.</p>
+    <div class="hero-stats">
+      <div><b>۱۱</b> مبحث</div>
+      <div><b>۱۱</b> تست با پاسخ تشریحی</div>
+      <div><b>۲۵</b> فرمول</div>
+      <div><b>۵</b> نمودار</div>
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+  <aside class="toc">
+    <h2>فهرست مطالب</h2>
+    <ol>
+      <li><a href="#s1">صورت‌های مالی چیست؟</a></li>
+      <li><a href="#s2">ترازنامه (صورت وضعیت مالی)</a></li>
+      <li><a href="#s3">اقلام حقوق صاحبان سهام</a></li>
+      <li><a href="#s4">خالص سرمایه در گردش</a></li>
+      <li><a href="#s5">صورت سود و زیان</a></li>
+      <li><a href="#s6">بهای تمام شدهٔ کالای فروش رفته</a></li>
+      <li><a href="#s7">هزینهٔ استهلاک</a></li>
+      <li><a href="#s8">تجزیه و تحلیل افقی و عمودی</a></li>
+      <li><a href="#s9">نسبت‌های مالی: پنج دسته</a></li>
+      <li><a href="#s10">نسبت‌های نقدینگی</a></li>
+      <li><a href="#s11">نسبت‌های فعالیت و چرخهٔ عملیاتی</a></li>
+      <li><a href="#tests">تست‌ها و پاسخ تشریحی</a></li>
+      <li><a href="#cheatsheet">فرمول‌نامه و چک‌لیست</a></li>
+    </ol>
+  </aside>
+
+  <article>
+    <div class="breadcrumb"><a href="../index.html">جزوهٔ مدیریت مالی</a> ← جلسهٔ ۲</div>
+
+    <div class="box tip">
+      <div class="box-title">📌 نقشهٔ این جلسه</div>
+      <p>فصل دوم دو تکه است. تکهٔ اول <b>شناخت صورت‌های مالی</b> است (ترازنامه، سود و زیان، بهای تمام شده، استهلاک) که بیشترش مرور حسابداری است. تکهٔ دوم <b>تجزیه و تحلیل</b> است (افقی، عمودی و مهم‌تر از همه <b>نسبت‌های مالی</b>) که تست‌خیزترین بخش کل کتاب است. چیزنویس کنار دستت باشد — این جلسه کاملاً محاسباتی است.</p>
+    </div>
+
+    <!-- ============ ۱ ============ -->
+    <h2 id="s1"><span class="n">۱</span>صورت‌های مالی چیست؟</h2>
+
+    <div class="box key">
+      <div class="box-title">🔑 تعریف</div>
+      <p><b>صورت‌های مالی</b> یک سری <b>گزارش‌های رسمی و سازمان‌یافته</b> دربارهٔ <b>اطلاعات مالی یک شرکت یا واحد تجاری</b> هستند؛ گزارش‌هایی که رویدادهای مالی شرکت در آن‌ها ثبت شده است.</p>
+    </div>
+
+    <p>صورت‌های مالی انواع مختلفی دارند (صورت سود و زیان جامع، صورت سرمایه و…)، اما در درس <b>مدیریت مالی</b> ما عمدتاً با <b>سه</b> صورت مالی سر و کار داریم:</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>صورت مالی</th><th>چه چیزی را نشان می‌دهد؟</th><th>بازهٔ زمانی</th><th>لقب</th></tr></thead>
+        <tbody>
+          <tr><td><b>ترازنامه</b></td><td>دارایی‌ها، بدهی‌ها و حقوق مالکین</td><td><b>یک تاریخ معین</b> (یک لحظه)</td><td>صورت <b>وضعیت</b> مالی — مثل یک <b>عکس</b></td></tr>
+          <tr><td><b>صورت سود و زیان</b></td><td>درآمدها، هزینه‌ها و سود/زیان</td><td><b>یک دورهٔ زمانی</b> (معمولاً یک سال)</td><td>صورت <b>عملکرد</b> مالی — مثل یک <b>فیلم</b></td></tr>
+          <tr><td><b>صورت جریان وجوه نقد</b></td><td>ورود و خروج وجه نقد</td><td>یک دورهٔ زمانی</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box warn">
+      <p>همین تفکیک «<b>عکس</b> در برابر <b>فیلم</b>» خودش تست‌خور است: ترازنامه <b>در تاریخ</b> ۲۹/۱۲/۱۴۰۲ نوشته می‌شود، صورت سود و زیان <b>برای سال منتهی به</b> ۲۹/۱۲/۱۴۰۲.</p>
+    </div>
+
+    <!-- ============ ۲ ============ -->
+    <h2 id="s2"><span class="n">۲</span>ترازنامه (صورت وضعیت مالی)</h2>
+
+    <div class="box key">
+      <p><b>ترازنامه</b> گزارشی از <b>تمامی دارایی‌ها، بدهی‌ها و حقوق مالکین</b> یک واحد تجاری <b>در یک تاریخ معین</b> است.</p>
+    </div>
+
+    <figure>
+      <svg class="chart" viewBox="0 0 660 330" role="img" aria-label="ساختار کامل ترازنامه با تفکیک دارایی و بدهی جاری و غیرجاری">
+        <text class="lbl" x="495" y="20" text-anchor="middle" font-size="13">سمت راست: دارایی‌ها</text>
+        <text class="lbl" x="165" y="20" text-anchor="middle" font-size="13">سمت چپ: بدهی‌ها + حقوق صاحبان سهام</text>
+
+        <rect x="340" y="32" width="300" height="118" rx="10" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="1.5"/>
+        <text class="lbl" x="490" y="52" text-anchor="middle">دارایی‌های جاری</text>
+        <text x="490" y="72" text-anchor="middle" font-size="10.5">وجه نقد · سرمایه‌گذاری کوتاه‌مدت</text>
+        <text x="490" y="90" text-anchor="middle" font-size="10.5">حساب‌ها و اسناد دریافتنی</text>
+        <text x="490" y="108" text-anchor="middle" font-size="10.5">موجودی مواد و کالا · پیش‌پرداخت‌ها</text>
+        <text x="490" y="132" text-anchor="middle" font-size="10" fill="var(--brand)">ظرف ۱ سال یا ۱ چرخهٔ عملیاتی نقد/مصرف می‌شوند</text>
+
+        <rect x="340" y="158" width="300" height="100" rx="10" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="1.5"/>
+        <text class="lbl" x="490" y="178" text-anchor="middle">دارایی‌های غیرجاری (ثابت)</text>
+        <text x="490" y="198" text-anchor="middle" font-size="10.5">زمین · ساختمان · ماشین‌آلات و تجهیزات</text>
+        <text x="490" y="216" text-anchor="middle" font-size="10.5">سرمایه‌گذاری بلندمدت</text>
+        <text x="490" y="240" text-anchor="middle" font-size="10" fill="var(--brand)">بیش از ۱ سال طول می‌کشد تا نقد شوند</text>
+
+        <rect x="20" y="32" width="300" height="74" rx="10" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.5"/>
+        <text class="lbl" x="170" y="52" text-anchor="middle">بدهی‌های جاری</text>
+        <text x="170" y="72" text-anchor="middle" font-size="10.5">حساب‌ها و اسناد پرداختنی · وام کوتاه‌مدت</text>
+        <text x="170" y="92" text-anchor="middle" font-size="10" fill="var(--accent)">ظرف ۱ سال یا ۱ چرخهٔ عملیاتی تسویه می‌شوند</text>
+
+        <rect x="20" y="114" width="300" height="60" rx="10" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.5"/>
+        <text class="lbl" x="170" y="134" text-anchor="middle">بدهی‌های غیرجاری (بلندمدت)</text>
+        <text x="170" y="154" text-anchor="middle" font-size="10.5">وام بلندمدت · اوراق قرضه · ذخیرهٔ مزایای پایان خدمت</text>
+
+        <rect x="20" y="182" width="300" height="76" rx="10" fill="var(--bg-alt)" stroke="var(--brand-2)" stroke-width="1.5"/>
+        <text class="lbl" x="170" y="202" text-anchor="middle">حقوق صاحبان سهام</text>
+        <text x="170" y="222" text-anchor="middle" font-size="10.5">سرمایه · اندوخته‌ها · صرف (کسر) سهام</text>
+        <text x="170" y="240" text-anchor="middle" font-size="10.5">سود (زیان) انباشته</text>
+
+        <rect x="20" y="272" width="620" height="38" rx="9" fill="var(--brand)" stroke="var(--brand)"/>
+        <text x="330" y="296" text-anchor="middle" style="fill:#fff" font-weight="700" font-size="13">جمع دارایی‌ها = جمع بدهی‌ها + حقوق صاحبان سهام &nbsp;(معادلهٔ حسابداری)</text>
+      </svg>
+      <figcaption>ساختار ترازنامه؛ دو طرف همیشه باید با هم برابر باشند.</figcaption>
+    </figure>
+
+    <h3>۲ـ۱. دارایی‌های جاری</h3>
+    <div class="box key">
+      <p>دارایی‌هایی که باید ظرف <b>یک سال از تاریخ ترازنامه</b> یا <b>یک چرخهٔ عملیاتی</b> (هر کدام طولانی‌تر است) یا <b>مصرف شوند</b> یا <b>تبدیل به وجه نقد شوند</b>.</p>
+    </div>
+    <p>اقلام مهمش: <b>وجه نقد</b> · <b>سرمایه‌گذاری‌های کوتاه‌مدت</b> · <b>حساب‌ها و اسناد دریافتنی</b> · <b>موجودی مواد و کالا</b> · <b>پیش‌پرداخت‌ها</b>.</p>
+
+    <div class="box">
+      <div class="box-title">🔍 دو قلم که باید دقیق بشناسی</div>
+      <ul>
+        <li><b>حساب‌ها و اسناد دریافتنی:</b> وقتی شرکت کالا یا خدمتش را <b>نسیه</b> می‌فروشد، طلبی ایجاد می‌شود. اگر مشتری فقط <b>شفاهی</b> قول پرداخت بدهد ← <b>حساب دریافتنی</b>؛ اگر <b>کتباً</b> (چک، سفته) تعهد کند ← <b>سند دریافتنی</b>.</li>
+        <li><b>پیش‌پرداخت‌ها:</b> هزینه‌ای که <b>بعداً</b> برای شرکت رخ می‌دهد ولی پولش را <b>زودتر</b> پرداخت کرده‌ای. مثلاً اجارهٔ شش ماه آینده را امروز دادی؛ هنوز هزینهٔ اجاره محقق نشده، پس فعلاً یک <b>طلب (دارایی)</b> است نه هزینه.</li>
+      </ul>
+    </div>
+
+    <h3>۲ـ۲. دارایی‌های غیرجاری (ثابت)</h3>
+    <p>دارایی‌هایی که <b>بیش از یک سال</b> طول می‌کشد تا به وجه نقد تبدیل شوند: ماشین‌آلات و تجهیزات، زمین، ساختمان، سرمایه‌گذاری‌های بلندمدت.</p>
+
+    <h3>۲ـ۳. بدهی‌های جاری و غیرجاری</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>نوع بدهی</th><th>تعریف</th><th>نمونه</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>بدهی جاری</b></td>
+            <td>بدهی‌هایی که شرکت باید ظرف <b>یک سال</b> یا <b>یک چرخهٔ عملیاتی</b> آن‌ها را پرداخت کند؛ معمولاً از محل <b>دارایی‌های جاری</b> (وجه نقد، وصول مطالبات، فروش موجودی) یا با <b>ایجاد یک بدهی جاری جدید</b>.</td>
+            <td>حساب‌ها و اسناد پرداختنی، وام کوتاه‌مدت سررسیدشده</td>
+          </tr>
+          <tr>
+            <td><b>بدهی غیرجاری (بلندمدت)</b></td>
+            <td>بدهی‌هایی که <b>بیش از یک سال</b> طول می‌کشد تا پرداخت شوند.</td>
+            <td>وام بلندمدت، <b>اوراق قرضه</b>، ذخیرهٔ مزایای پایان خدمت کارکنان</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box trap">
+      <p><b>تلهٔ تستی:</b> <b>اوراق قرضه</b> جزء <b>بدهی بلندمدت</b> است، نه بدهی جاری. در تست‌های نسبت نقدینگی معمولاً عدد اوراق قرضه را می‌دهند فقط برای اینکه اشتباهی آن را در مخرج بگذاری.</p>
+    </div>
+
+    <div class="formula">
+      جمع دارایی‌ها = جمع بدهی‌ها + حقوق صاحبان سهام
+    </div>
+    <div class="formula">
+      حقوق صاحبان سهام = جمع دارایی‌ها &minus; جمع بدهی‌ها
+    </div>
+
+    <!-- ============ ۳ ============ -->
+    <h2 id="s3"><span class="n">۳</span>اقلام حقوق صاحبان سهام</h2>
+
+    <h3>۳ـ۱. سرمایه</h3>
+    <div class="formula">
+      سرمایه = تعداد سهام عادی منتشره × قیمت اسمی هر سهم
+    </div>
+    <div class="box">
+      <div class="box-title">🧮 مثال</div>
+      <p>شرکتی ۱۰۰٬۰۰۰ برگ سهم عادی منتشر کرده و قیمت اسمی هر سهم ۱٬۰۰۰ ریال است:</p>
+      <p class="fx" style="display:block;text-align:center">سرمایه = 100,000 × 1,000 = 100,000,000 ریال</p>
+    </div>
+
+    <h3>۳ـ۲. اندوخته‌ها</h3>
+    <div class="box key">
+      <p><b>اندوخته‌ها</b> حساب‌هایی هستند که باعث <b>ایجاد محدودیت در تقسیم سود</b> بین سهامداران می‌شوند. دو نوع‌اند:</p>
+      <ul>
+        <li><b>اندوختهٔ قانونی:</b> <b>اجباری</b> و طبق قانون.</li>
+        <li><b>اندوختهٔ طرح و توسعه:</b> <b>اختیاری</b> — خود شرکت برای پروژه‌ها و طرح‌های توسعه کنار می‌گذارد.</li>
+      </ul>
+    </div>
+
+    <div class="box warn">
+      <div class="box-title">⚠️ قاعدهٔ اندوختهٔ قانونی (حفظی و پرتکرار)</div>
+      <p>طبق <b>قانون تجارت</b>، هیئت‌مدیرهٔ شرکت مکلف است هر سال <b>۵٪ از سود خالص</b> را به‌عنوان <b>اندوختهٔ قانونی</b> کنار بگذارد، تا زمانی که اندوختهٔ قانونی به <b>۱۰٪ سرمایهٔ ثبت‌شدهٔ شرکت</b> برسد. بعد از رسیدن به این سقف، دیگر الزامی نیست.</p>
+      <p>اگر شرکت در یک سال <b>زیان</b> داشته باشد، اندوختهٔ قانونی آن سال کنار گذاشته نمی‌شود.</p>
+    </div>
+
+    <h3>۳ـ۳. صرف و کسر سهام</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>حالت</th><th>نام حساب</th><th>مبلغ</th><th>نحوهٔ ثبت</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>قیمت فروش هر سهم <b>بیشتر از</b> قیمت اسمی</td>
+            <td><b>صرف سهام</b> (اضافهٔ سهام / مازاد سرمایهٔ پرداخت‌شده)</td>
+            <td class="num">(قیمت فروش &minus; قیمت اسمی) × تعداد سهام</td>
+            <td>مثبت، در حقوق صاحبان سهام</td>
+          </tr>
+          <tr>
+            <td>قیمت فروش هر سهم <b>کمتر از</b> قیمت اسمی</td>
+            <td><b>کسر سهام</b></td>
+            <td class="num">(قیمت فروش &minus; قیمت اسمی) × تعداد سهام</td>
+            <td>منفی، <b>داخل پرانتز</b> نوشته می‌شود</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box">
+      <div class="box-title">🧮 مثال</div>
+      <p>۱۰۰٬۰۰۰ برگ سهم با قیمت اسمی ۱٬۰۰۰ ریال:</p>
+      <ul>
+        <li>اگر به قیمت ۱٬۲۰۰ ریال فروخته شود: <span class="fx">(1200 &minus; 1000) × 100,000 = +20,000,000</span> ← <b>صرف سهام</b></li>
+        <li>اگر به قیمت ۸۰۰ ریال فروخته شود: <span class="fx">(800 &minus; 1000) × 100,000 = &minus;20,000,000</span> ← <b>کسر سهام</b> (۲۰٬۰۰۰٬۰۰۰)</li>
+      </ul>
+      <p><b>دقت:</b> در حساب «سرمایه» همیشه <u>قیمت اسمی</u> ثبت می‌شود؛ مازاد یا کسری در حساب جداگانهٔ صرف/کسر سهام می‌نشیند.</p>
+    </div>
+
+    <h3>۳ـ۴. سود (زیان) انباشته</h3>
+    <div class="box key">
+      <p><b>سود انباشته</b> سودی است که شرکت به سهامدارانش <b>پرداخت نکرده</b> و <b>مجدداً داخل شرکت سرمایه‌گذاری</b> شده است.</p>
+    </div>
+    <p>یادت باشد از جلسهٔ ۱: شرکت سود یک سال را می‌سازد، چند ماه بعد <b>مجمع عمومی عادی</b> تشکیل می‌شود و آنجا تصمیم می‌گیرند چه مقدار از سود <b>تقسیم</b> شود (DPS) و چه مقدار <b>انباشته</b> شود.</p>
+
+    <div class="box">
+      <div class="box-title">🧮 مثال تقسیم سود</div>
+      <p>فرض کن به ازای هر سهم ۱٬۰۰۰ ریال سود ساخته‌ای:</p>
+      <ul>
+        <li>۲۰۰ ریال ← اندوخته (قانونی + طرح و توسعه)</li>
+        <li>۵۰۰ ریال ← تقسیم بین سهامداران (DPS)</li>
+        <li><b>۳۰۰ ریال ← سود انباشته</b> (دوباره داخل شرکت سرمایه‌گذاری می‌شود)</li>
+      </ul>
+    </div>
+
+    <!-- ============ ۴ ============ -->
+    <h2 id="s4"><span class="n">۴</span>خالص سرمایه در گردش</h2>
+
+    <div class="formula">
+      خالص سرمایه در گردش (NWC) = دارایی‌های جاری &minus; بدهی‌های جاری
+    </div>
+
+    <div class="box key">
+      <div class="box-title">🔑 رابطه با نسبت جاری</div>
+      <div class="table-wrap" style="margin-top:8px">
+        <table>
+          <thead><tr><th>نسبت جاری</th><th>خالص سرمایه در گردش</th></tr></thead>
+          <tbody>
+            <tr><td>کمتر از ۱</td><td><b>منفی</b></td></tr>
+            <tr><td>برابر با ۱</td><td><b>صفر</b></td></tr>
+            <tr><td>بیشتر از ۱</td><td><b>مثبت</b></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>لازم نیست حفظ کنی: نسبت جاری <span class="fx">= 2/4 = 0.5 &lt; 1</span> یعنی <span class="fx">NWC = 2 &minus; 4 = &minus;2</span>. خودِ عدد گذاشتن، جواب را می‌دهد.</p>
+    </div>
+
+    <h4>چه چیزی NWC را کم یا زیاد می‌کند؟</h4>
+    <p>کلید تحلیل: هر رویداد را فقط از دو زاویه ببین — <b>اثرش روی دارایی جاری</b> و <b>اثرش روی بدهی جاری</b>.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>رویداد</th><th>دارایی جاری</th><th>بدهی جاری</th><th>اثر بر NWC</th></tr></thead>
+        <tbody>
+          <tr><td>تأمین مالی از طریق انتشار سهام</td><td>↑ (وجه نقد زیاد می‌شود)</td><td>بدون تغییر</td><td class="num" style="color:var(--ok)"><b>افزایش</b></td></tr>
+          <tr><td>افزایش موجودی کالا (خرید نقدی)</td><td>بدون تغییر خالص (نقد↓، کالا↑)</td><td>بدون تغییر</td><td class="num">بدون تغییر</td></tr>
+          <tr><td><b>خرید یک باب ساختمان (نقدی)</b></td><td>↓ (نقد خارج می‌شود)</td><td>بدون تغییر</td><td class="num" style="color:var(--danger)"><b>کاهش</b></td></tr>
+          <tr><td>دریافت وام بلندمدت</td><td>↑ (وجه نقد)</td><td>بدون تغییر (بدهی بلندمدت است)</td><td class="num" style="color:var(--ok)"><b>افزایش</b></td></tr>
+          <tr><td>وصول مطالبات (نقد شدن حساب دریافتنی)</td><td>بدون تغییر خالص</td><td>بدون تغییر</td><td class="num">بدون تغییر</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box tip">
+      <p><b>قاعدهٔ کلی:</b> هر وقت یک <b>دارایی جاری</b> تبدیل به <b>دارایی غیرجاری</b> شود (مثل خرید ساختمان با وجه نقد)، خالص سرمایه در گردش <b>کم</b> می‌شود. و هر وقت یک <b>منبع بلندمدت</b> (سهام یا وام بلندمدت) تبدیل به <b>دارایی جاری</b> شود، NWC <b>زیاد</b> می‌شود.</p>
+    </div>
+
+    <!-- ============ ۵ ============ -->
+    <h2 id="s5"><span class="n">۵</span>صورت سود و زیان</h2>
+
+    <div class="box key">
+      <p><b>صورت سود و زیان</b> <b>عملکرد</b> شرکت را طی <b>یک دورهٔ زمانی</b> (معمولاً یک سال) نشان می‌دهد. در ساده‌ترین حالت: <b>درآمدها منهای هزینه‌ها</b>. اگر درآمد بیشتر باشد ← سود؛ اگر هزینه بیشتر باشد ← زیان.</p>
+    </div>
+
+    <h3>ساختار کامل صورت سود و زیان</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>ردیف</th><th>عنوان</th><th>معادل انگلیسی</th></tr></thead>
+        <tbody>
+          <tr><td class="num">۱</td><td><b>فروش خالص (درآمد فروش)</b></td><td>Sales / Revenue</td></tr>
+          <tr><td class="num">۲</td><td>&minus; بهای تمام شدهٔ کالای فروش رفته</td><td>COGS</td></tr>
+          <tr><td class="num">۳</td><td><b>= سود ناخالص (ناویژه)</b></td><td>Gross Profit</td></tr>
+          <tr><td class="num">۴</td><td>&minus; هزینه‌های عملیاتی (اداری، فروش) و هزینهٔ استهلاک</td><td>Operating Expenses</td></tr>
+          <tr><td class="num">۵</td><td><b>= سود عملیاتی (سود قبل از بهره و مالیات)</b></td><td><b>EBIT</b> — Earnings Before Interest &amp; Tax</td></tr>
+          <tr><td class="num">۶</td><td>&minus; هزینهٔ بهره (هزینهٔ مالی) ± سایر اقلام غیرعملیاتی</td><td>Interest</td></tr>
+          <tr><td class="num">۷</td><td><b>= سود قبل از مالیات</b></td><td>EBT</td></tr>
+          <tr><td class="num">۸</td><td>&minus; مالیات</td><td>Tax</td></tr>
+          <tr><td class="num">۹</td><td><b>= سود خالص (ویژه)</b></td><td>Net Income</td></tr>
+          <tr><td class="num">۱۰</td><td>&minus; سود سهام ممتاز</td><td>Preferred Dividends</td></tr>
+          <tr><td class="num">۱۱</td><td><b>= سود متعلق به سهامداران عادی</b></td><td>Earnings Available to Common</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <figure>
+      <svg class="chart" viewBox="0 0 640 290" role="img" aria-label="نمودار آبشاری صورت سود و زیان از فروش تا سود خالص">
+        <rect x="40" y="36" width="110" height="36" rx="7" fill="var(--brand)" stroke="var(--brand)"/>
+        <text x="95" y="59" text-anchor="middle" style="fill:#fff" font-weight="700" font-size="12">فروش خالص</text>
+        <rect x="40" y="92" width="110" height="34" rx="7" fill="var(--brand-soft)" stroke="var(--brand)"/>
+        <text x="95" y="114" text-anchor="middle" font-size="11.5">سود ناخالص</text>
+        <rect x="40" y="146" width="110" height="34" rx="7" fill="var(--brand-soft)" stroke="var(--brand)"/>
+        <text x="95" y="162" text-anchor="middle" font-size="11.5">سود عملیاتی</text>
+        <text x="95" y="175" text-anchor="middle" font-size="10" fill="var(--brand)">EBIT</text>
+        <rect x="40" y="200" width="110" height="34" rx="7" fill="var(--brand-soft)" stroke="var(--brand)"/>
+        <text x="95" y="222" text-anchor="middle" font-size="11.5">سود قبل از مالیات</text>
+        <rect x="40" y="254" width="110" height="30" rx="7" fill="var(--brand)" stroke="var(--brand)"/>
+        <text x="95" y="274" text-anchor="middle" style="fill:#fff" font-weight="700" font-size="12">سود خالص</text>
+        <g stroke="var(--text-soft)" stroke-width="1.3" fill="none">
+          <path d="M95 72 V92"/><path d="M95 126 V146"/><path d="M95 180 V200"/><path d="M95 234 V254"/>
+        </g>
+        <g font-size="11">
+          <rect x="180" y="74" width="190" height="24" rx="6" fill="var(--danger-soft)" stroke="var(--danger)"/>
+          <text x="275" y="90" text-anchor="middle">&minus; بهای تمام شدهٔ کالای فروش رفته</text>
+          <rect x="180" y="128" width="190" height="24" rx="6" fill="var(--danger-soft)" stroke="var(--danger)"/>
+          <text x="275" y="144" text-anchor="middle">&minus; هزینه‌های عملیاتی و استهلاک</text>
+          <rect x="180" y="182" width="190" height="24" rx="6" fill="var(--danger-soft)" stroke="var(--danger)"/>
+          <text x="275" y="198" text-anchor="middle">&minus; هزینهٔ بهره (غیرعملیاتی)</text>
+          <rect x="180" y="236" width="190" height="24" rx="6" fill="var(--danger-soft)" stroke="var(--danger)"/>
+          <text x="275" y="252" text-anchor="middle">&minus; مالیات</text>
+        </g>
+        <g stroke="var(--danger)" stroke-width="1.1" stroke-dasharray="3 3" fill="none">
+          <path d="M150 86 H180"/><path d="M150 140 H180"/><path d="M150 194 H180"/><path d="M150 248 H180"/>
+        </g>
+        <rect x="400" y="140" width="220" height="70" rx="9" fill="var(--ok-soft)" stroke="var(--ok)" stroke-width="1.5"/>
+        <text class="lbl" x="510" y="163" text-anchor="middle" font-size="12">بهترین معیار سنجش کارایی</text>
+        <text x="510" y="184" text-anchor="middle" font-size="12" style="fill:var(--ok)" font-weight="700">سود عملیاتی (EBIT)</text>
+        <text x="510" y="200" text-anchor="middle" font-size="10">چون فقط از عملیات شرکت نشئت می‌گیرد</text>
+        <path d="M398 175 H155" stroke="var(--ok)" stroke-width="1.4" stroke-dasharray="4 4" fill="none"/>
+      </svg>
+      <figcaption>مسیر فروش تا سود خالص؛ هر پله یک گروه هزینه کم می‌شود.</figcaption>
+    </figure>
+
+    <div class="box key">
+      <div class="box-title">🔑 نکتهٔ تست‌خور</div>
+      <p><b>بهترین سود برای سنجش و ارزیابی کارایی یک شرکت (واحد تجاری)، سود عملیاتی (EBIT) است</b>، چون فقط از <b>عملیات</b> شرکت نشئت می‌گیرد و تحت تأثیر ساختار تأمین مالی (بهره) و نرخ مالیات نیست.</p>
+    </div>
+
+    <h3>سود هر سهم (EPS)</h3>
+    <div class="formula">
+      EPS =
+      <span class="frac"><span>سود متعلق به سهامداران عادی</span><span>تعداد سهام عادی منتشره</span></span>
+    </div>
+    <p class="formula-note">Earnings Per Share — سود هر سهم</p>
+
+    <!-- ============ ۶ ============ -->
+    <h2 id="s6"><span class="n">۶</span>بهای تمام شدهٔ کالای فروش رفته (COGS)</h2>
+
+    <div class="box key">
+      <p><b>بهای تمام شدهٔ کالای فروش رفته</b> یعنی: کالایی که فروختی، <b>برای خودت چند درآمده بود؟</b></p>
+    </div>
+
+    <div class="formula">
+      COGS = موجودی کالای اول دوره + خرید کالای طی دوره &minus; موجودی کالای پایان دوره
+    </div>
+
+    <figure>
+      <svg class="chart" viewBox="0 0 620 220" role="img" aria-label="نمودار جریان موجودی کالا و بهای تمام شده">
+        <rect x="30" y="60" width="130" height="50" rx="8" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="1.5"/>
+        <text x="95" y="82" text-anchor="middle" font-size="11.5">موجودی اول دوره</text>
+        <text x="95" y="99" text-anchor="middle" font-size="11" fill="var(--text-soft)">(۱٬۰۰۰ صندلی)</text>
+        <text class="lbl" x="178" y="90" text-anchor="middle" font-size="18">+</text>
+        <rect x="196" y="60" width="130" height="50" rx="8" fill="var(--brand-soft)" stroke="var(--brand)" stroke-width="1.5"/>
+        <text x="261" y="82" text-anchor="middle" font-size="11.5">خرید طی دوره</text>
+        <text x="261" y="99" text-anchor="middle" font-size="11" fill="var(--text-soft)">(۲٬۰۰۰ صندلی)</text>
+        <text class="lbl" x="344" y="90" text-anchor="middle" font-size="18">=</text>
+        <rect x="362" y="48" width="140" height="74" rx="8" fill="var(--bg-alt)" stroke="var(--line)" stroke-width="1.5"/>
+        <text class="lbl" x="432" y="72" text-anchor="middle" font-size="11.5">کالای آمادهٔ فروش</text>
+        <text x="432" y="92" text-anchor="middle" font-size="11" fill="var(--text-soft)">(۳٬۰۰۰ صندلی)</text>
+        <text x="432" y="110" text-anchor="middle" font-size="9.5" fill="var(--text-soft)">بین دو مقصد تقسیم می‌شود</text>
+        <g stroke="var(--text-soft)" stroke-width="1.3" fill="none">
+          <path d="M502 72 H540 V36"/><path d="M502 100 H540 V160"/>
+        </g>
+        <rect x="470" y="12" width="145" height="26" rx="7" fill="var(--accent-soft)" stroke="var(--accent)"/>
+        <text x="542" y="29" text-anchor="middle" font-size="11">موجودی پایان دوره (۱٬۵۰۰)</text>
+        <rect x="470" y="158" width="145" height="40" rx="7" fill="var(--danger-soft)" stroke="var(--danger)"/>
+        <text x="542" y="175" text-anchor="middle" font-size="11">بهای تمام شدهٔ</text>
+        <text x="542" y="191" text-anchor="middle" font-size="11">کالای فروش رفته (۱٬۵۰۰)</text>
+      </svg>
+      <figcaption>آنچه آمادهٔ فروش بوده یا در انبار مانده (موجودی پایان دوره) یا فروخته شده (COGS). همین، کل منطق فرمول است.</figcaption>
+    </figure>
+
+    <h3>۶ـ۱. جهت روابط (بدون حفظ کردن!)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>قلم</th><th>رابطه با COGS</th><th>رابطه با سود ناخالص</th></tr></thead>
+        <tbody>
+          <tr><td>موجودی کالای <b>اول</b> دوره</td><td style="color:var(--ok)"><b>مستقیم</b></td><td style="color:var(--danger)"><b>معکوس</b></td></tr>
+          <tr><td><b>خرید</b> طی دوره</td><td style="color:var(--ok)"><b>مستقیم</b></td><td style="color:var(--danger)"><b>معکوس</b></td></tr>
+          <tr><td>موجودی کالای <b>پایان</b> دوره</td><td style="color:var(--danger)"><b>معکوس</b></td><td style="color:var(--ok)"><b>مستقیم</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box tip">
+      <div class="box-title">💡 زنجیرهٔ استدلال (به‌جای حفظ)</div>
+      <p>موجودی پایان دوره <b>زیاد</b> ← یعنی کالای زیادی در انبار مانده ← پس کالای کمتری فروش رفته ← <b>COGS کم</b> ← و چون COGS یک <b>هزینه</b> است، هزینهٔ کمتر یعنی <b>سود ناخالص زیاد</b>. پس موجودی پایان دوره با سود ناخالص <b>مستقیم</b> است. تمام جهت‌های دیگر هم از همین زنجیره درمی‌آید.</p>
+      <p>و همیشه: COGS و سود ناخالص رابطهٔ <b>عکس</b> دارند (چون فروش منهای COGS می‌شود سود ناخالص).</p>
+    </div>
+
+    <h3>۶ـ۲. سه روش ثبت موجودی: LIFO، FIFO و میانگین موزون</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>روش</th><th>کامل</th><th>فرض برای محاسبهٔ COGS</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>LIFO (لایفو)</b></td>
+            <td>Last In, First Out</td>
+            <td>کالاهایی که <b>دیرتر</b> وارد انبار شده‌اند، <b>اول فروش می‌روند</b>.</td>
+          </tr>
+          <tr>
+            <td><b>FIFO (فایفو)</b></td>
+            <td>First In, First Out</td>
+            <td>کالاهایی که <b>زودتر</b> وارد انبار شده‌اند، <b>اول فروش می‌روند</b>.</td>
+          </tr>
+          <tr>
+            <td><b>میانگین موزون</b></td>
+            <td>Weighted Average</td>
+            <td>از قیمت تمام کالاهای موجود و خریداری‌شده یک <b>میانگین وزنی</b> گرفته می‌شود.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box">
+      <div class="box-title">🧮 مثال عددی هر سه روش</div>
+      <p>موجودی اول دوره: ۱۰۰ صندلی × ۱۰ ریال &nbsp;|&nbsp; خرید اردیبهشت: ۲۰۰ صندلی × ۲۰ ریال &nbsp;|&nbsp; فروش خرداد: ۱۵۰ صندلی</p>
+      <ul>
+        <li><b>LIFO:</b> ۱۵۰ تا از آخرین خرید (۲۰ ریالی) ← <span class="fx">COGS = 150 × 20 = 3,000</span>؛ موجودی پایان دوره = <span class="fx">(50 × 20) + (100 × 10) = 2,000</span></li>
+        <li><b>FIFO:</b> اول ۱۰۰ تای ۱۰ ریالی، بعد ۵۰ تای ۲۰ ریالی ← <span class="fx">COGS = (100 × 10) + (50 × 20) = 2,000</span>؛ موجودی پایان دوره = <span class="fx">150 × 20 = 3,000</span></li>
+        <li><b>میانگین موزون:</b> <span class="fx">[(100 × 10) + (200 × 20)] / 300 = 5,000 / 300 ≈ 16.67</span> ریال هر واحد ← <span class="fx">COGS = 150 × 16.67 = 2,500</span></li>
+      </ul>
+    </div>
+
+    <h3>۶ـ۳. اثر تورم و رکود بر LIFO و FIFO</h3>
+    <div class="box warn">
+      <p><b>شرایط تورمی = قیمت‌ها در حال رشد</b> &nbsp;|&nbsp; <b>شرایط رکودی = قیمت‌ها در حال کاهش</b>. هر وقت تست گفت «قیمت‌ها در حال رشد باشند»، منظورش شرایط تورمی است.</p>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>در شرایط تورمی (قیمت‌ها صعودی)</th><th>FIFO</th><th>LIFO</th></tr></thead>
+        <tbody>
+          <tr><td>COGS</td><td><b>کمتر</b> (از کالاهای ارزان قدیمی)</td><td><b>بیشتر</b> (از کالاهای گران جدید)</td></tr>
+          <tr><td>موجودی پایان دوره</td><td style="color:var(--ok)"><b>بیشترین ارزش</b> (کالاهای گران جدید می‌مانند)</td><td><b>کمتر</b></td></tr>
+          <tr><td>سود گزارش‌شده</td><td style="color:var(--ok)"><b>بیشتر</b></td><td><b>کمتر</b></td></tr>
+          <tr><td>مالیات پرداختی</td><td>بیشتر</td><td>کمتر</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>در شرایط رکودی (قیمت‌ها نزولی) دقیقاً برعکس می‌شود.</p>
+
+    <!-- ============ ۷ ============ -->
+    <h2 id="s7"><span class="n">۷</span>هزینهٔ استهلاک</h2>
+
+    <div class="box key">
+      <p><b>هزینهٔ استهلاک</b> یعنی آن قسمت از ارزش <b>دارایی ثابت</b> که در هر دوره به حساب <b>هزینه</b> منظور می‌شود — به‌خاطر فرسوده شدن و کاهش ارزش دارایی در اثر استفاده.</p>
+    </div>
+
+    <div class="box warn">
+      <div class="box-title">⚠️ مهم‌ترین ویژگی (در فصل بودجه‌بندی سرمایه‌ای حیاتی می‌شود)</div>
+      <p>هزینهٔ استهلاک یک <b>هزینهٔ غیرنقدی</b> است: بابتش <b>هیچ پولی از شرکت خارج نمی‌شود</b>، فقط هر سال بخشی از ارزش دارایی کم می‌شود.</p>
+    </div>
+
+    <p>در درس حسابداری چند روش استهلاک وجود دارد (مجموع سنوات، مانده نزولی، میزان تولید و خط مستقیم)، اما در <b>مدیریت مالی</b> هر جا گفتند هزینهٔ استهلاک را حساب کن، با <b>روش خط مستقیم</b> حساب می‌کنیم:</p>
+
+    <div class="formula">
+      استهلاک سالانه =
+      <span class="frac"><span>بهای تمام شدهٔ دارایی &minus; ارزش اسقاط</span><span>عمر مفید دارایی</span></span>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>جزء</th><th>معنا</th><th>قطعی یا برآوردی؟</th></tr></thead>
+        <tbody>
+          <tr><td><b>بهای تمام شده</b></td><td>مبلغی که بابت خرید دارایی پرداخت کرده‌ای</td><td><b>قطعی</b> و مشخص</td></tr>
+          <tr><td><b>عمر مفید</b></td><td>مدت زمانی که انتظار داری از دارایی استفاده کنی</td><td><b>برآوردی</b></td></tr>
+          <tr><td><b>ارزش اسقاط (باقیمانده / قراضه)</b></td><td>ارزش دارایی پس از پایان عمر مفید</td><td><b>برآوردی</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box trap">
+      <p>چون دو جزء از سه جزء <b>برآوردی</b> هستند، خودِ <b>هزینهٔ استهلاک هم یک عدد برآوردی است، نه قطعی</b>. این جمله گاهی مستقیم در تست می‌آید.</p>
+    </div>
+
+    <h3>استهلاک انباشته و ارزش دفتری</h3>
+    <div class="formula">
+      استهلاک انباشته = مجموع هزینهٔ استهلاک سالانه از تاریخ خرید تا امروز
+    </div>
+    <div class="formula">
+      ارزش دفتری = بهای تمام شدهٔ دارایی &minus; استهلاک انباشته
+    </div>
+
+    <div class="box">
+      <div class="box-title">🧮 مثال کامل</div>
+      <p>دارایی‌ای به بهای تمام شدهٔ ۱٬۰۰۰٬۰۰۰ ریال خریده‌ای، ارزش اسقاط ۲۰۰٬۰۰۰ ریال و عمر مفید ۴ سال:</p>
+      <ul>
+        <li>استهلاک سالانه = <span class="fx">(1,000,000 &minus; 200,000) / 4 = 200,000</span> ریال در سال</li>
+        <li>بعد از ۲ سال، استهلاک انباشته = <span class="fx">2 × 200,000 = 400,000</span> ریال</li>
+        <li>ارزش دفتری بعد از ۲ سال = <span class="fx">1,000,000 &minus; 400,000 = 600,000</span> ریال</li>
+        <li>در لحظهٔ خرید (قبل از استفاده): استهلاک انباشته صفر است، پس <b>ارزش دفتری = بهای تمام شده</b>.</li>
+      </ul>
+    </div>
+
+    <!-- ============ ۸ ============ -->
+    <h2 id="s8"><span class="n">۸</span>تجزیه و تحلیل افقی و عمودی</h2>
+
+    <p>تجزیه و تحلیل صورت‌های مالی <b>سه روش اصلی</b> دارد: <b>افقی</b>، <b>عمودی</b> و <b>نسبت‌های مالی</b>. دو تای اول را سریع رد می‌کنیم، سومی قلب فصل است.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>روش</th><th>مبنا چیست؟</th><th>چه چیزی مقایسه می‌شود؟</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>تحلیل افقی</b><br>(روند)</td>
+            <td><b>یک سال</b> به‌عنوان <b>سال پایه</b></td>
+            <td>هر قلم در سال‌های بعد، نسبت به همان قلم در <b>سال پایه</b> سنجیده می‌شود.</td>
+          </tr>
+          <tr>
+            <td><b>تحلیل عمودی</b><br>(هم‌مقیاس)</td>
+            <td><b>یک قلم</b> به‌عنوان <b>قلم پایه</b></td>
+            <td>همهٔ اقلام <b>یک صورت مالی</b>، نسبت به آن قلم پایه بیان می‌شوند (به درصد).</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box key">
+      <div class="box-title">🔑 قلم پایه در تحلیل عمودی</div>
+      <ul>
+        <li>در <b>صورت سود و زیان</b> ← <b>فروش</b> (۱۰۰٪ در نظر گرفته می‌شود)</li>
+        <li>در <b>ترازنامه</b> ← <b>جمع (کل) دارایی‌ها</b></li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <div class="box-title">🧮 مثال تحلیل افقی</div>
+      <p>فروش شرکت: سال ۱۴۰۰ برابر ۱٬۰۰۰٬۰۰۰ ریال، سال ۱۴۰۱ برابر ۱٬۲۰۰٬۰۰۰ ریال، سال ۱۴۰۲ برابر ۱٬۴۰۰٬۰۰۰ ریال. با انتخاب ۱۴۰۰ به‌عنوان سال پایه:</p>
+      <p class="fx" style="display:block;text-align:center">1401: 1,200/1,000 = 120% (۲۰٪ رشد) &nbsp;|&nbsp; 1402: 1,400/1,000 = 140% (۴۰٪ رشد)</p>
+    </div>
+
+    <div class="box">
+      <div class="box-title">🧮 مثال تحلیل عمودی</div>
+      <p>فروش ۱٬۰۰۰٬۰۰۰ ریال، سود عملیاتی ۲۰۰٬۰۰۰ ریال، سود خالص ۱۰۰٬۰۰۰ ریال:</p>
+      <p class="fx" style="display:block;text-align:center">فروش = 100% &nbsp;|&nbsp; سود عملیاتی = 200/1,000 = 20% &nbsp;|&nbsp; سود خالص = 100/1,000 = 10%</p>
+    </div>
+
+    <!-- ============ ۹ ============ -->
+    <h2 id="s9"><span class="n">۹</span>نسبت‌های مالی: پنج دسته</h2>
+
+    <div class="box key">
+      <p><b>تجزیه و تحلیل نسبت‌ها</b> یعنی ترکیب <b>دو یا چند متغیر</b> از ترازنامه و صورت سود و زیان با هم، در قالب یک سری رابطهٔ تحلیلی.</p>
+    </div>
+
+    <figure>
+      <svg class="chart" viewBox="0 0 660 190" role="img" aria-label="درخت پنج دسته نسبت‌های مالی">
+        <rect x="255" y="8" width="150" height="38" rx="9" fill="var(--brand)" stroke="var(--brand)"/>
+        <text x="330" y="32" text-anchor="middle" style="fill:#fff" font-weight="700">نسبت‌های مالی</text>
+        <g stroke="var(--line)" stroke-width="1.4" fill="none">
+          <path d="M330 46 V62 H68 V78"/><path d="M330 46 V62 H199 V78"/><path d="M330 62 V78"/>
+          <path d="M330 46 V62 H461 V78"/><path d="M330 46 V62 H592 V78"/>
+        </g>
+        <g font-size="11">
+          <rect x="12" y="78" width="112" height="56" rx="8" fill="var(--brand-soft)" stroke="var(--brand)"/>
+          <text class="lbl" x="68" y="100" text-anchor="middle">۱. نقدینگی</text>
+          <text x="68" y="120" text-anchor="middle" font-size="10">توان پرداخت بدهی جاری</text>
+          <rect x="143" y="78" width="112" height="56" rx="8" fill="var(--accent-soft)" stroke="var(--accent)"/>
+          <text class="lbl" x="199" y="100" text-anchor="middle">۲. فعالیت (کارایی)</text>
+          <text x="199" y="120" text-anchor="middle" font-size="10">استفاده از دارایی‌ها</text>
+          <rect x="274" y="78" width="112" height="56" rx="8" fill="var(--bg-alt)" stroke="var(--line)"/>
+          <text class="lbl" x="330" y="100" text-anchor="middle">۳. اهرمی (بدهی)</text>
+          <text x="330" y="120" text-anchor="middle" font-size="10">ساختار تأمین مالی</text>
+          <rect x="405" y="78" width="112" height="56" rx="8" fill="var(--bg-alt)" stroke="var(--line)"/>
+          <text class="lbl" x="461" y="100" text-anchor="middle">۴. سودآوری</text>
+          <text x="461" y="120" text-anchor="middle" font-size="10">حاشیهٔ سود، ROA، ROE</text>
+          <rect x="536" y="78" width="112" height="56" rx="8" fill="var(--bg-alt)" stroke="var(--line)"/>
+          <text class="lbl" x="592" y="100" text-anchor="middle">۵. ارزش بازار</text>
+          <text x="592" y="120" text-anchor="middle" font-size="10">P/E، P/B و…</text>
+        </g>
+        <text x="330" y="165" text-anchor="middle" font-size="11" fill="var(--text-soft)">دستهٔ ۱ و ۲ در این جلسه · دستهٔ ۳ تا ۵ در جلسهٔ بعد</text>
+      </svg>
+      <figcaption>پنج دستهٔ نسبت‌های مالی؛ هر دسته یک بُعد از شرکت را تحلیل می‌کند.</figcaption>
+    </figure>
+
+    <!-- ============ ۱۰ ============ -->
+    <h2 id="s10"><span class="n">۱۰</span>نسبت‌های نقدینگی</h2>
+
+    <div class="box key">
+      <p><b>نسبت‌های نقدینگی</b> <b>توان شرکت در عمل به تعهدات کوتاه‌مدت</b> را می‌سنجند. «تعهدات کوتاه‌مدت» همان <b>بدهی‌های جاری</b> است.</p>
+    </div>
+
+    <div class="box warn">
+      <div class="box-title">⚠️ کلید طلایی این دسته</div>
+      <p><b>مخرج تمام نسبت‌های نقدینگی، «بدهی‌های جاری» است</b> — بجز <b>دورهٔ استقامت</b> که مخرجش فرق می‌کند. فقط <b>صورت کسر</b> عوض می‌شود، و صورت دارد به این سؤال جواب می‌دهد: «<b>از چه محلی</b> می‌خواهی بدهی جاری را بپردازی؟»</p>
+    </div>
+
+    <h3>۱۰ـ۱. نسبت جاری</h3>
+    <div class="formula">
+      نسبت جاری =
+      <span class="frac"><span>دارایی‌های جاری</span><span>بدهی‌های جاری</span></span>
+    </div>
+    <p>یعنی: برای پرداخت بدهی جاری، از محل <b>کل دارایی‌های جاری</b> چقدر توان دارم؟</p>
+
+    <h3>۱۰ـ۲. نسبت آنی (سریع / اسیدی)</h3>
+    <div class="formula">
+      نسبت آنی =
+      <span class="frac"><span>دارایی‌های جاری &minus; موجودی کالا &minus; پیش‌پرداخت‌ها</span><span>بدهی‌های جاری</span></span>
+    </div>
+    <div class="formula">
+      یا معادلاً =
+      <span class="frac"><span>وجه نقد + سرمایه‌گذاری کوتاه‌مدت + حساب‌های دریافتنی</span><span>بدهی‌های جاری</span></span>
+    </div>
+    <div class="box">
+      <p><b>چرا موجودی کالا و پیش‌پرداخت‌ها را کم می‌کنیم؟</b> چون در میان دارایی‌های جاری، این دو <b>دیرتر</b> به وجه نقد تبدیل می‌شوند (نقدشوندگی پایین‌تری دارند). پس نسبت آنی نگاه <b>محافظه‌کارانه‌تری</b> نسبت به نسبت جاری دارد.</p>
+      <p>(پیش‌پرداخت را عملاً نمی‌توانی پس بگیری — مثل جنسی که از فروشگاه خریده‌ای و پولش برنمی‌گردد. در بعضی کتاب‌ها فقط موجودی کالا کسر می‌شود؛ اگر تست پیش‌پرداخت داد، کسرش کن.)</p>
+    </div>
+    <p>سه نام این نسبت که در تست‌ها جابه‌جا می‌آید: <b>نسبت آنی = نسبت سریع = نسبت اسیدی</b>.</p>
+
+    <h3>۱۰ـ۳. نسبت نقد و نسبت وجه نقد</h3>
+    <div class="formula">
+      نسبت نقد =
+      <span class="frac"><span>وجه نقد + اوراق بهادار سریع‌المعامله (سرمایه‌گذاری کوتاه‌مدت)</span><span>بدهی‌های جاری</span></span>
+    </div>
+    <div class="formula">
+      نسبت وجه نقد =
+      <span class="frac"><span>وجه نقد</span><span>بدهی‌های جاری</span></span>
+    </div>
+    <div class="box tip">
+      <p><b>تفکیک ساده:</b> اگر گفت «نسبت <b>وجه نقد</b>» ← فقط خودِ <b>وجه نقد</b> در صورت. اگر گفت «نسبت <b>نقد</b>» ← وجه نقد <b>به‌علاوهٔ</b> اوراق بهادار سریع‌المعامله در صورت.</p>
+    </div>
+
+    <h3>۱۰ـ۴. دورهٔ استقامت</h3>
+    <div class="formula">
+      دورهٔ استقامت =
+      <span class="frac"><span>دارایی‌های جاری</span><span>متوسط هزینه‌های عملیاتی روزانه</span></span>
+    </div>
+    <div class="box key">
+      <p><b>مفهوم:</b> شرکت <b>چند روز</b> می‌تواند هزینه‌های عملیاتی‌اش را از محل دارایی‌های جاری پوشش دهد (چند روز استقامت دارد).</p>
+      <p><b>تنها نسبت نقدینگی است که مخرجش بدهی جاری نیست.</b> واحد جوابش <b>روز</b> است.</p>
+    </div>
+    <div class="box trap">
+      <p><b>دقت کن:</b> مخرج <b>هزینهٔ عملیاتی روزانه</b> است. اگر تست هزینهٔ عملیاتی <b>یک ماه</b> را داد، تقسیم بر ۳۰ کن؛ اگر <b>یک هفته</b> را داد، تقسیم بر ۷؛ اگر <b>سالانه</b> را داد، تقسیم بر ۳۶۰.</p>
+    </div>
+
+    <div class="box tip">
+      <div class="box-title">💡 قانون «دوره ← روز»</div>
+      <p>هر جا در نسبت‌های مالی کلمهٔ <b>«دوره»</b> را دیدی، واحد جواب <b>روز</b> است. این خودش در تست‌های چهارگزینه‌ای نصف گزینه‌ها را حذف می‌کند.</p>
+    </div>
+
+    <!-- ============ ۱۱ ============ -->
+    <h2 id="s11"><span class="n">۱۱</span>نسبت‌های فعالیت (کارایی) و چرخهٔ عملیاتی</h2>
+
+    <div class="box key">
+      <p><b>نسبت‌های فعالیت یا کارایی</b> بیانگر <b>کارایی مدیریت شرکت در استفاده از دارایی‌ها</b> هستند: شرکت چقدر می‌تواند از دارایی‌هایش به‌نحو کارا استفاده کند؟</p>
+    </div>
+
+    <div class="box warn">
+      <div class="box-title">⭐ دو قانون کدگذاری — کل این بخش را بدون حفظ حل می‌کند</div>
+      <div class="table-wrap" style="margin-top:8px">
+        <table>
+          <thead><tr><th>اگر دیدی…</th><th>صورت کسر</th><th>مخرج کسر</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>کلمهٔ <b>«گردش»</b></td>
+              <td><b>فروش</b></td>
+              <td>هر کلمه‌ای که <b>بعد از</b> «گردش» آمده (خودش یا <b>متوسط</b>ش)</td>
+            </tr>
+            <tr>
+              <td>کلمهٔ <b>«دوره»</b></td>
+              <td><b>۳۶۰</b></td>
+              <td>هر چیزی که <b>بعد از</b> «دوره» آمده (یعنی همان نسبت گردش مربوطه)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p><b>دو تبصرهٔ مهم روی قانون اول:</b></p>
+      <ol>
+        <li>برای <b>موجودی کالا</b> و <b>حساب‌های پرداختنی</b>، کلمهٔ بهتری از «فروش» داریم: <b>بهای تمام شدهٔ کالای فروش رفته</b>. (چون COGS مستقیماً از موجودی کالا و خریدها ساخته می‌شود.)</li>
+        <li>برای <b>حساب‌های دریافتنی</b>، کلمهٔ بهتری از «فروش» داریم: <b>فروش نسیه</b>. (چون حساب دریافتنی فقط از فروش نسیه ایجاد می‌شود.)</li>
+      </ol>
+      <p><b>اما</b> اگر در صورت سؤال COGS یا فروش نسیه داده نشده بود و از روی اطلاعات هم درنمی‌آمد، استفاده از خودِ <b>فروش</b> غلط نیست — همان را بگذار.</p>
+    </div>
+
+    <h3>۱۱ـ۱. موجودی کالا</h3>
+    <div class="formula">
+      گردش موجودی کالا =
+      <span class="frac"><span>بهای تمام شدهٔ کالای فروش رفته</span><span>متوسط موجودی کالا</span></span>
+    </div>
+    <p class="formula-note">مفهوم: طی یک سال <b>چند بار / چند دفعه</b> کالا خریدم (یا تولید کردم) و فروختم.</p>
+
+    <div class="formula">
+      دورهٔ گردش موجودی کالا =
+      <span class="frac"><span>۳۶۰</span><span>گردش موجودی کالا</span></span>
+    </div>
+    <p class="formula-note">مفهوم: <b>چند روز</b> طول می‌کشد تا کالا را بخرم (یا تولید کنم) و بفروشم.</p>
+
+    <div class="formula">
+      متوسط موجودی کالا =
+      <span class="frac"><span>موجودی اول دوره + موجودی پایان دوره</span><span>۲</span></span>
+    </div>
+
+    <h3>۱۱ـ۲. حساب‌های دریافتنی (وصول مطالبات)</h3>
+    <div class="formula">
+      گردش حساب‌های دریافتنی =
+      <span class="frac"><span>فروش نسیه</span><span>متوسط حساب‌های دریافتنی</span></span>
+    </div>
+    <p class="formula-note">مفهوم: طی یک سال <b>چند بار</b> توانستم مطالباتم را وصول کنم.</p>
+
+    <div class="formula">
+      دورهٔ وصول مطالبات =
+      <span class="frac"><span>۳۶۰</span><span>گردش حساب‌های دریافتنی</span></span>
+      &nbsp;=&nbsp;
+      <span class="frac"><span>متوسط حساب‌های دریافتنی</span><span>متوسط فروش نسیهٔ روزانه</span></span>
+    </div>
+    <p class="formula-note">مفهوم: به‌طور متوسط <b>چند روز</b> طول می‌کشد تا شرکت مطالباتش را وصول کند.</p>
+
+    <div class="box">
+      <div class="box-title">🔍 چرا آن دو شکل با هم برابرند؟</div>
+      <p class="fx" style="display:block;text-align:center;line-height:2.4">360 ÷ (فروش نسیه / متوسط ح.د) = (360 × متوسط ح.د) / فروش نسیه</p>
+      <p>حالا صورت و مخرج را بر ۳۶۰ تقسیم کن:</p>
+      <p class="fx" style="display:block;text-align:center;line-height:2.4">= متوسط ح.د ÷ (فروش نسیه / 360) = متوسط ح.د ÷ فروش نسیهٔ روزانه</p>
+      <p>پس لازم نیست دوتایش را حفظ کنی؛ یکی از دیگری درمی‌آید.</p>
+    </div>
+
+    <h3>۱۱ـ۳. حساب‌های پرداختنی</h3>
+    <div class="formula">
+      گردش حساب‌های پرداختنی =
+      <span class="frac"><span>بهای تمام شدهٔ کالای فروش رفته</span><span>متوسط حساب‌های پرداختنی</span></span>
+    </div>
+    <div class="formula">
+      دورهٔ گردش حساب‌های پرداختنی (مهلت پرداخت بدهی) =
+      <span class="frac"><span>۳۶۰</span><span>گردش حساب‌های پرداختنی</span></span>
+    </div>
+    <p class="formula-note">مفهوم: چند روز طول می‌کشد تا بدهی ناشی از خرید نسیه را بپردازم.</p>
+
+    <h3>۱۱ـ۴. سایر نسبت‌های فعالیت</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>نسبت</th><th>فرمول</th><th>مفهوم</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>گردش دارایی‌ها</b></td>
+            <td class="num">فروش ÷ کل دارایی‌ها</td>
+            <td>هر یک ریال دارایی، چقدر <b>فروش/درآمد</b> ایجاد می‌کند (میزان درآمدزایی دارایی‌ها)</td>
+          </tr>
+          <tr>
+            <td><b>گردش سرمایه در گردش خالص</b></td>
+            <td class="num">فروش ÷ خالص سرمایه در گردش</td>
+            <td>کارایی استفاده از سرمایه در گردش</td>
+          </tr>
+          <tr>
+            <td><b>گردش دارایی‌های ثابت</b></td>
+            <td class="num">فروش ÷ دارایی‌های ثابت</td>
+            <td>کارایی استفاده از دارایی‌های ثابت</td>
+          </tr>
+          <tr>
+            <td><b>نسبت سرمایه‌بری</b></td>
+            <td class="num">کل دارایی‌ها ÷ فروش</td>
+            <td>برای <b>یک ریال فروش</b>، چقدر دارایی لازم است؟ (<b>معکوس</b> گردش دارایی‌ها)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>۱۱ـ۵. چرخهٔ عملیاتی و دورهٔ گردش وجه نقد</h3>
+
+    <div class="box key">
+      <p><b>دورهٔ (چرخهٔ) عملیاتی</b>: مدت زمانی که شرکت کالا (یا در شرکت تولیدی، مواد اولیه) می‌خرد، آن را می‌فروشد و تا زمانی که وجه نقدش را دریافت می‌کند.</p>
+    </div>
+
+    <figure>
+      <svg class="chart" viewBox="0 0 660 260" role="img" aria-label="تایم‌لاین چرخه عملیاتی و دوره گردش وجه نقد">
+        <line class="ax" x1="40" y1="120" x2="620" y2="120"/>
+        <path d="M620 120 l-9 -4 M620 120 l-9 4" stroke="var(--text-soft)" stroke-width="1.3" fill="none"/>
+        <text x="600" y="105" text-anchor="end" font-size="10" fill="var(--text-soft)">جهت زمان</text>
+        <g stroke="var(--text-soft)" stroke-width="1.2">
+          <line x1="70" y1="112" x2="70" y2="128"/>
+          <line x1="250" y1="112" x2="250" y2="128"/>
+          <line x1="400" y1="112" x2="400" y2="128"/>
+          <line x1="590" y1="112" x2="590" y2="128"/>
+        </g>
+        <text x="70" y="148" text-anchor="middle" font-size="10.5">خرید نسیهٔ کالا</text>
+        <text x="250" y="148" text-anchor="middle" font-size="10.5">پرداخت بدهی</text>
+        <text x="250" y="163" text-anchor="middle" font-size="10.5">به فروشنده</text>
+        <text x="400" y="148" text-anchor="middle" font-size="10.5">فروش نسیهٔ کالا</text>
+        <text x="590" y="148" text-anchor="middle" font-size="10.5">وصول مطالبات</text>
+
+        <g stroke="var(--brand)" stroke-width="2.4" fill="none">
+          <path d="M70 84 H400"/><path d="M70 84 v8"/><path d="M400 84 v8"/>
+        </g>
+        <text x="235" y="76" text-anchor="middle" font-size="11" style="fill:var(--brand)" font-weight="700">دورهٔ گردش موجودی کالا</text>
+
+        <g stroke="var(--accent)" stroke-width="2.4" fill="none">
+          <path d="M400 84 H590"/><path d="M590 84 v8"/>
+        </g>
+        <text x="495" y="76" text-anchor="middle" font-size="11" style="fill:var(--accent)" font-weight="700">دورهٔ وصول مطالبات</text>
+
+        <g stroke="var(--brand-2)" stroke-width="2.4" fill="none">
+          <path d="M70 46 H590"/><path d="M70 46 v8"/><path d="M590 46 v8"/>
+        </g>
+        <text x="330" y="38" text-anchor="middle" font-size="12" style="fill:var(--brand-2)" font-weight="700">دورهٔ (چرخهٔ) عملیاتی</text>
+
+        <g stroke="var(--danger)" stroke-width="2.4" fill="none">
+          <path d="M70 192 H250"/><path d="M70 192 v-8"/><path d="M250 192 v-8"/>
+        </g>
+        <text x="160" y="210" text-anchor="middle" font-size="11" style="fill:var(--danger)" font-weight="700">دورهٔ گردش ح. پرداختنی</text>
+
+        <g stroke="var(--ok)" stroke-width="2.4" fill="none">
+          <path d="M250 192 H590"/><path d="M590 192 v-8"/>
+        </g>
+        <text x="420" y="210" text-anchor="middle" font-size="11" style="fill:var(--ok)" font-weight="700">دورهٔ گردش وجه نقد</text>
+        <text x="420" y="228" text-anchor="middle" font-size="10">از خروج پول تا ورود پول</text>
+      </svg>
+      <figcaption>یک تصویر، همهٔ روابط این بخش را در خود دارد: چرخهٔ عملیاتی از خرید تا وصول، و دورهٔ گردش وجه نقد از پرداخت تا وصول.</figcaption>
+    </figure>
+
+    <div class="formula">
+      دورهٔ عملیاتی = دورهٔ گردش موجودی کالا + دورهٔ وصول مطالبات
+    </div>
+    <div class="formula">
+      دورهٔ عملیاتی = دورهٔ گردش حساب‌های پرداختنی + دورهٔ گردش وجه نقد
+    </div>
+    <div class="formula">
+      دورهٔ گردش وجه نقد = دورهٔ عملیاتی &minus; دورهٔ گردش حساب‌های پرداختنی
+    </div>
+
+    <div class="box key">
+      <div class="box-title">🔑 تعریف‌ها در یک نگاه</div>
+      <ul>
+        <li><b>دورهٔ گردش موجودی کالا:</b> از خرید کالا تا فروش آن.</li>
+        <li><b>دورهٔ وصول مطالبات:</b> از فروش نسیه تا دریافت پول.</li>
+        <li><b>دورهٔ گردش حساب‌های پرداختنی (مهلت پرداخت بدهی):</b> از خرید نسیه تا پرداخت پول به فروشنده.</li>
+        <li><b>دورهٔ گردش وجه نقد:</b> از لحظه‌ای که پول از شرکت <b>خارج</b> می‌شود تا لحظه‌ای که پول وارد شرکت می‌شود.</li>
+      </ul>
+    </div>
+
+    <!-- ============ تست‌ها ============ -->
+    <h2 id="tests"><span class="n">۱۲</span>تست‌ها و پاسخ تشریحی</h2>
+
+    <p>اول خودت با چیزنویس حل کن، بعد پاسخ را باز کن.
+    <button class="theme-btn" type="button" data-open-all style="width:auto;padding:6px 14px;font-size:.9rem">باز کردن همهٔ پاسخ‌ها</button></p>
+
+    <!-- 1 -->
+    <div class="quiz">
+      <div class="quiz-head"><span class="quiz-badge">تست ۱</span>
+        <p class="quiz-q">کدام یک از موارد زیر باعث <b>کاهش</b> خالص سرمایه در گردش می‌شود؟</p></div>
+      <ol class="opts">
+        <li>تأمین مالی از طریق انتشار سهام</li>
+        <li>افزایش در موجودی کالا</li>
+        <li class="right">خرید یک باب ساختمان</li>
+        <li>دریافت وام بلندمدت از بانک</li>
+      </ol>
+      <details><summary>پاسخ تشریحی</summary><div>
+        <span class="ans">گزینهٔ ۳</span>
+        <p><b>یادآوری:</b> <span class="fx">NWC = دارایی جاری &minus; بدهی جاری</span>. پس فقط باید اثر هر رویداد را روی این دو قلم ببینیم.</p>
+        <ul>
+          <li><b>گزینهٔ ۱ (غلط):</b> انتشار سهام ← وجه نقد (دارایی جاری) <b>زیاد</b> می‌شود، سرمایه هم زیاد می‌شود. بدهی جاری تغییری نمی‌کند ← NWC <b>افزایش</b> می‌یابد.</li>
+          <li><b>گزینهٔ ۲ (غلط):</b> افزایش موجودی کالا به‌قیمت کاهش وجه نقد است؛ هر دو داخل دارایی جاری‌اند، پس جمع دارایی جاری تغییر نمی‌کند ← NWC <b>تغییری نمی‌کند</b>. (اگر خرید نسیه باشد، دارایی جاری و بدهی جاری هر دو به یک اندازه زیاد می‌شوند و باز NWC ثابت می‌ماند.)</li>
+          <li><b>گزینهٔ ۳ (درست):</b> خرید ساختمان ← <b>وجه نقد (دارایی جاری) کم</b> می‌شود و <b>ساختمان (دارایی ثابت) زیاد</b> می‌شود. بدهی جاری دست‌نخورده ← NWC <b>کاهش</b> می‌یابد. ✅</li>
+          <li><b>گزینهٔ ۴ (غلط):</b> وام بلندمدت ← وجه نقد زیاد می‌شود ولی بدهی <b>بلندمدت</b> زیاد می‌شود نه جاری ← NWC <b>افزایش</b> می‌یابد.</li>
+        </ul>
+        <div class="box tip" style="margin-top:10px"><p><b>قاعدهٔ کلی:</b> تبدیل دارایی جاری به دارایی غیرجاری ← NWC کم می‌شود.</p></div>
+      </div></details>
+    </div>
+
+    <!-- 2 -->
+    <div class="quiz">
+      <div class="quiz-head"><span class="quiz-badge">تست ۲</span>
+        <p class="quiz-q">در صورتی که قیمت‌ها در حال رشد باشند، موجودی ………… بیشترین ارزش را نشان می‌دهد و در نتیجه صورت‌های مالی به روش ………… سود را بیشتر نشان خواهند داد.</p></div>
+      <ol class="opts">
+        <li>ابتدای دوره — لایفو</li>
+        <li class="right">پایان دوره — فایفو</li>
+        <li>ابتدای دوره — فایفو</li>
+        <li>پایان دوره — لایفو</li>
+      </ol>
+      <details><summary>پاسخ تشریحی</summary><div>
+        <span class="ans">گزینهٔ ۲</span>
+        <p><b>جای خالی اول:</b> کدام موجودی با سود رابطهٔ <b>مستقیم</b> دارد؟ موجودی <b>پایان دوره</b>. (منطق: موجودی پایان دوره زیاد ← COGS کم ← چون COGS هزینه است، سود ناخالص زیاد.) پس گزینه‌های ۱ و ۳ حذف.</p>
+        <p><b>جای خالی دوم:</b> «قیمت‌ها در حال رشد» = <b>شرایط تورمی</b>. در FIFO، کالاهای <b>قدیمی و ارزان</b> اول فروش می‌روند، پس:</p>
+        <ul>
+          <li>COGS با قیمت‌های <b>ارزان</b> محاسبه می‌شود ← COGS <b>کم</b> ← سود <b>زیاد</b>.</li>
+          <li>کالاهای <b>گران و جدید</b> در انبار می‌مانند ← موجودی پایان دوره <b>بیشترین ارزش</b> را دارد. ✅</li>
+        </ul>
+        <p>در LIFO دقیقاً برعکس: کالاهای گران اول فروش می‌روند ← COGS زیاد ← سود کم و موجودی پایان دوره کم‌ارزش.</p>
+      </div></details>
+    </div>
+
+    <!-- 3 -->
+    <div class="quiz">
+      <div class="quiz-head"><span class="quiz-badge">تست ۳</span>
+        <p class="quiz-q">نسبت جاری شرکتی برابر ۴٫۵ است. این شرکت اوراق قرضه‌ای معادل ۱ میلیون ریال منتشر کرده و بدهی‌های جاری آن ۲ میلیون ریال است. چنانچه موجودی کالای این شرکت ۳ میلیون ریال باشد، نسبت آنی برابر است با:</p></div>
+      <ol class="opts">
+        <li class="right">۳</li>
+        <li>۲٫۵</li>
+        <li>۴</li>
+        <li>۱٫۵</li>
+      </ol>
+      <details><summary>پاسخ تشریحی</summary><div>
+        <span class="ans">گزینهٔ ۱ — عدد ۳</span>
+        <p><b>گام ۱ — درآوردن دارایی جاری از نسبت جاری:</b></p>
+        <p class="fx" style="display:block;text-align:center">نسبت جاری = دارایی جاری / بدهی جاری → 4.5 = دارایی جاری / 2,000,000</p>
+        <p class="fx" style="display:block;text-align:center">دارایی جاری = 4.5 × 2,000,000 = 9,000,000 ریال</p>
+        <p><b>گام ۲ — نسبت آنی:</b></p>
+        <p class="fx" style="display:block;text-align:center">نسبت آنی = (9,000,000 &minus; 3,000,000) / 2,000,000 = 6,000,000 / 2,000,000 = 3</p>
+        <div class="box trap" style="margin-top:10px">
+          <p><b>تلهٔ سؤال:</b> آن ۱ میلیون <b>اوراق قرضه</b> کاملاً اطلاعات اضافی است! اوراق قرضه بدهی <b>بلندمدت</b> است و اصلاً در نسبت‌های نقدینگی وارد نمی‌شود. اولین کار در این تست‌ها: ببین کدام عدد اضافی است.</p>
+        </div>
+      </div></details>
+    </div>
+
+    <!-- 4 -->
+    <div class="quiz">
+      <div class="quiz-head"><span class="quiz-badge">تست ۴</span>
+        <p class="quiz-q">دارایی بلندمدت شرکتی ۳۰۰٬۰۰۰ ریال و کل دارایی‌های آن ۴۵۰٬۰۰۰ ریال است. اگر موجودی کالای این شرکت ۵۰٬۰۰۰ ریال و بدهی‌های جاری شرکت ۱۰۰٬۰۰۰ ریال باشد، کدام مورد صحیح است؟</p></div>
+      <ol class="opts">
+        <li class="right">نسبت جاری ۱٫۵ و نسبت سریع ۱ است.</li>
+        <li>نسبت جاری ۱ و نسبت سریع ۱٫۵ است.</li>
+        <li>نسبت جاری ۳ و نسبت سریع ۲ است.</li>
+        <li>نسبت جاری ۴٫۵ و نسبت سریع ۴ است.</li>
+      </ol>
+      <details><summary>پاسخ تشریحی</summary><div>
+        <span class="ans">گزینهٔ ۱</span>
+        <p><b>گام ۱ — دارایی جاری را از ترازنامه دربیاور</b> (مستقیم نداده):</p>
+        <p class="fx" style="display:block;text-align:center">دارایی جاری = کل دارایی &minus; دارایی غیرجاری = 450,000 &minus; 300,000 = 150,000</p>
+        <p><b>گام ۲ — نسبت جاری:</b></p>
+        <p class="fx" style="display:block;text-align:center">150,000 / 100,000 = 1.5</p>
+        <p><b>گام ۳ — نسبت سریع (آنی / اسیدی):</b></p>
+        <p class="fx" style="display:block;text-align:center">(150,000 &minus; 50,000) / 100,000 = 100,000 / 100,000 = 1</p>
+        <p>پس نسبت جاری ۱٫۵ و نسبت سریع ۱ ← گزینهٔ ۱.</p>
+      </div></details>
+    </div>
+
+    <!-- 5 -->
+    <div class="quiz">
+      <div class="quiz-head"><span class="quiz-badge">تست ۵</span>
+        <p class="quiz-q">اگر نسبت سود ناخالص به بهای تمام شدهٔ کالای فروش رفته ۲۵٪، متوسط موجودی کالا ۲ میلیون ریال و فروش شرکت ۱۰ میلیون ریال باشد، دورهٔ گردش موجودی کالا چند روز است؟</p></div>
+      <ol class="opts">
+        <li>۷۲ روز</li>
+        <li>۸۰ روز</li>
+        <li class="right">۹۰ روز</li>
+        <li>۱۲۰ روز</li>
+      </ol>
+      <details><summary>پاسخ تشریحی</summary><div>
+        <span class="ans">گزینهٔ ۳ — ۹۰ روز</span>
+        <p><b>گام ۱ — فرمول را از روی قانون کدگذاری بنویس:</b></p>
+        <p class="fx" style="display:block;text-align:center">دورهٔ گردش موجودی = 360 / گردش موجودی = 360 ÷ (COGS / متوسط موجودی)</p>
+        <p><b>گام ۲ — COGS را دربیاور.</b> صورت سؤال COGS را مستقیم نداده، ولی نسبت سود ناخالص به COGS را داده. از سه ردیف اول صورت سود و زیان:</p>
+        <p class="fx" style="display:block;text-align:center">فروش &minus; COGS = سود ناخالص</p>
+        <p>فرض کن <span class="fx">COGS = x</span>. آنگاه <span class="fx">سود ناخالص = 0.25x</span> و:</p>
+        <p class="fx" style="display:block;text-align:center">10,000,000 &minus; x = 0.25x → 10,000,000 = 1.25x → x = 8,000,000</p>
+        <p><b>گام ۳ — محاسبهٔ نهایی:</b></p>
+        <p class="fx" style="display:block;text-align:center">گردش موجودی = 8,000,000 / 2,000,000 = 4</p>
+        <p class="fx" style="display:block;text-align:center">دورهٔ گردش موجودی = 360 / 4 = 90 روز</p>
+        <div class="box trap" style="margin-top:10px">
+          <p><b>چرا گزینهٔ ۴ (۷۲ روز) تله است؟</b> اگر عجله می‌کردی و به‌جای COGS خودِ <b>فروش</b> را می‌گذاشتی: <span class="fx">10/2 = 5</span> و <span class="fx">360/5 = 72</span>. اینجا چون <b>می‌شد COGS را از اطلاعات مسئله درآورد</b>، استفاده از فروش غلط است. قاعده: اول ببین COGS درمی‌آید یا نه؛ اگر درمی‌آید، حتماً همان را بگذار.</p>
+        </div>
+      </div></details>
+    </div>
+
+    <!-- 6 -->
+    <div class="quiz">
+      <div class="quiz-head"><span class="quiz-badge">تمرین</span>
+        <p class="quiz-q">(مشابه تست ۵ — خودت حل کن) اگر نسبت سود ناخالص به بهای تمام شدهٔ کالای فروش رفته ۲۰٪، متوسط موجودی کالا ۳ میلیون ریال و فروش شرکت ۱۸ میلیون ریال باشد، دورهٔ گردش موجودی کالا چند روز است؟</p></div>
+      <ol class="opts">
+        <li>۶۰ روز</li>
+        <li class="right">۷۲ روز</li>
+        <li>۹۰ روز</li>
+        <li>۱۲۰ روز</li>
+      </ol>
+      <details><summary>پاسخ تشریحی</summary><div>
+        <span class="ans">۷۲ روز</span>
+        <ul>
+          <li><span class="fx">18,000,000 &minus; x = 0.20x → 1.2x = 18,000,000 → COGS = 15,000,000</span></li>
+          <li><span class="fx">گردش موجودی = 15,000,000 / 3,000,000 = 5</span></li>
+          <li><span class="fx">دورهٔ گردش موجودی = 360 / 5 = 72 روز</span></li>
+        </ul>
+      </div></details>
+    </div>
+
+    <!-- 7 -->
+    <div class="quiz">
+      <div class="quiz-head"><span class="quiz-badge">تست ۷</span>
+        <p class="quiz-q">با توجه به اطلاعات زیر، نسبت گردش موجودی کالا کدام است؟<br>
+        فروش: ۱۰٬۰۰۰٬۰۰۰ ریال · نسبت سود ناخالص به بهای تمام شدهٔ کالای فروش رفته: ۱ · موجودی کالای ابتدای دوره: ۱۰٬۰۰۰ ریال · موجودی کالای پایان دوره: ۱۴٬۰۰۰ ریال</p></div>
+      <ol class="opts">
+        <li>۳۵۷</li>
+        <li class="right">حدود ۴۱۷</li>
+        <li>۵۰۰</li>
+        <li>۸۳۳</li>
+      </ol>
+      <details><summary>پاسخ تشریحی</summary><div>
+        <span class="ans">گزینهٔ ۲ — حدود ۴۱۶٫۷</span>
+        <p><b>گام ۱ — COGS:</b> نسبت سود ناخالص به COGS برابر ۱ است، یعنی سود ناخالص <b>مساوی</b> COGS. اگر <span class="fx">COGS = x</span>:</p>
+        <p class="fx" style="display:block;text-align:center">10,000,000 &minus; x = x → 2x = 10,000,000 → COGS = 5,000,000</p>
+        <p><b>گام ۲ — متوسط موجودی کالا:</b></p>
+        <p class="fx" style="display:block;text-align:center">(10,000 + 14,000) / 2 = 12,000</p>
+        <p><b>گام ۳ — گردش موجودی کالا:</b></p>
+        <p class="fx" style="display:block;text-align:center">5,000,000 / 12,000 ≈ 416.7</p>
+        <p>چون موجودی <b>هم اول دوره و هم پایان دوره</b> داده شده، حتماً باید <b>میانگین</b> را بگذاری، نه یکی از آن دو را.</p>
+      </div></details>
+    </div>
+
+    <!-- 8 -->
+    <div class="quiz">
+      <div class="quiz-head"><span class="quiz-badge">تست ۸</span>
+        <p class="quiz-q">اگر دورهٔ گردش موجودی کالای شرکتی ۷۰ روز، دورهٔ وصول حساب‌های دریافتنی ۴۰ روز و دورهٔ پرداخت حساب‌های پرداختنی شرکت ۲۰ روز باشد، «دورهٔ عملیاتی» و «دورهٔ گردش وجه نقد» به‌ترتیب از راست به چپ کدام است؟</p></div>
+      <ol class="opts">
+        <li>۹۰ و ۷۰ روز</li>
+        <li>۱۳۰ و ۱۱۰ روز</li>
+        <li class="right">۱۱۰ و ۹۰ روز</li>
+        <li>۱۱۰ و ۱۳۰ روز</li>
+      </ol>
+      <details><summary>پاسخ تشریحی</summary><div>
+        <span class="ans">گزینهٔ ۳ — ۱۱۰ و ۹۰ روز</span>
+        <p><b>گام ۱ — دورهٔ عملیاتی:</b></p>
+        <p class="fx" style="display:block;text-align:center">دورهٔ عملیاتی = دورهٔ گردش موجودی + دورهٔ وصول مطالبات = 70 + 40 = 110 روز</p>
+        <p><b>گام ۲ — دورهٔ گردش وجه نقد:</b></p>
+        <p class="fx" style="display:block;text-align:center">= دورهٔ عملیاتی &minus; دورهٔ گردش ح. پرداختنی = 110 &minus; 20 = 90 روز</p>
+        <p>از همان تصویر تایم‌لاین بالا هم مستقیم خوانده می‌شود: چرخهٔ عملیاتی کل مسیر از خرید تا وصول است، و دورهٔ گردش وجه نقد همان مسیر منهای مدتی که پول هنوز دست خودت بوده (مهلت پرداخت بدهی).</p>
+      </div></details>
+    </div>
+
+    <!-- 9 -->
+    <div class="quiz">
+      <div class="quiz-head"><span class="quiz-badge">تست ۹</span>
+        <p class="quiz-q">اگر فروش ۲۴ میلیون ریال، موجودی کالا ۴ میلیون ریال، بدهکاران ۴ میلیون ریال و متوسط مهلت پرداخت بدهی ۲۰ روز باشد، دورهٔ گردش وجه نقد چند روز است؟</p></div>
+      <ol class="opts">
+        <li>۶۰ روز</li>
+        <li>۸۰ روز</li>
+        <li class="right">۱۰۰ روز</li>
+        <li>۱۲۰ روز</li>
+      </ol>
+      <details><summary>پاسخ تشریحی</summary><div>
+        <span class="ans">گزینهٔ ۳ — ۱۰۰ روز</span>
+        <p>«بدهکاران» همان <b>حساب‌های دریافتنی / مطالبات</b> است؛ فقط اسمش فرق دارد.</p>
+        <p><b>گام ۱ — دورهٔ گردش موجودی کالا:</b> COGS داده نشده و از اطلاعات مسئله هم درنمی‌آید، پس طبق تبصره از <b>فروش</b> استفاده می‌کنیم:</p>
+        <p class="fx" style="display:block;text-align:center">گردش موجودی = 24 / 4 = 6 &nbsp;→&nbsp; دوره = 360 / 6 = 60 روز</p>
+        <p><b>گام ۲ — دورهٔ وصول مطالبات:</b> فروش نسیه داده نشده، پس باز از فروش کل استفاده می‌کنیم:</p>
+        <p class="fx" style="display:block;text-align:center">گردش ح. دریافتنی = 24 / 4 = 6 &nbsp;→&nbsp; دوره = 360 / 6 = 60 روز</p>
+        <p><b>گام ۳ — دورهٔ عملیاتی:</b> <span class="fx">60 + 60 = 120 روز</span></p>
+        <p><b>گام ۴ — دورهٔ گردش وجه نقد:</b> <span class="fx">120 &minus; 20 = 100 روز</span></p>
+      </div></details>
+    </div>
+
+    <!-- 10 -->
+    <div class="quiz">
+      <div class="quiz-head"><span class="quiz-badge">تست ۱۰</span>
+        <p class="quiz-q">در شرکت آلفا، فروش ۴٬۰۰۰٬۰۰۰ ریال، بهای تمام شدهٔ کالای فروش رفته ۲٬۵۰۰٬۰۰۰ ریال، موجودی کالای اول دوره ۳۰۰٬۰۰۰ ریال، موجودی کالای آخر دوره ۲۰۰٬۰۰۰ ریال و حساب‌های دریافتنی ۱۰۰٬۰۰۰ ریال است. دورهٔ عملیاتی این شرکت چند روز است؟</p></div>
+      <ol class="opts">
+        <li class="right">۴۵ روز</li>
+        <li>۳۶ روز</li>
+        <li>۵۴ روز</li>
+        <li>۹۰ روز</li>
+      </ol>
+      <details><summary>پاسخ تشریحی</summary><div>
+        <span class="ans">گزینهٔ ۱ — ۴۵ روز</span>
+        <p><b>گام ۱ — دورهٔ گردش موجودی کالا.</b> اینجا COGS <b>مستقیم داده شده</b>، پس حتماً همان را در صورت بگذار:</p>
+        <p class="fx" style="display:block;text-align:center">متوسط موجودی = (300,000 + 200,000) / 2 = 250,000</p>
+        <p class="fx" style="display:block;text-align:center">گردش موجودی = 2,500,000 / 250,000 = 10 &nbsp;→&nbsp; دوره = 360 / 10 = 36 روز</p>
+        <p><b>گام ۲ — دورهٔ وصول مطالبات.</b> فروش نسیه داده نشده، پس از فروش کل استفاده می‌کنیم:</p>
+        <p class="fx" style="display:block;text-align:center">گردش ح. دریافتنی = 4,000,000 / 100,000 = 40 &nbsp;→&nbsp; دوره = 360 / 40 = 9 روز</p>
+        <p><b>گام ۳ — دورهٔ عملیاتی:</b></p>
+        <p class="fx" style="display:block;text-align:center">36 + 9 = 45 روز</p>
+        <p><b>دقت:</b> در یک سؤال ممکن است برای موجودی کالا از COGS و برای مطالبات از فروش استفاده کنی — این اشکالی ندارد، هر کدام کلمهٔ بهتر خودش را دارد.</p>
+      </div></details>
+    </div>
+
+    <h3>تست کنکور</h3>
+
+    <!-- 11 -->
+    <div class="quiz">
+      <div class="quiz-head"><span class="quiz-badge k">کنکور ۱۴۰۳ — سؤال ۱۵۶</span>
+        <p class="quiz-q">دفعات گردش حساب‌های پرداختنی، حساب‌های دریافتنی و موجودی کالای شرکتی به‌ترتیب ۱۰، ۸ و ۶ است. «دورهٔ عملیاتی» و «دورهٔ گردش وجه نقد» به‌ترتیب کدام است؟ (سال را ۳۶۰ روز در نظر بگیرید.)</p></div>
+      <ol class="opts">
+        <li>۱۰۵ و ۱۴۱ روز</li>
+        <li>۹۶ و ۶۰ روز</li>
+        <li>۸۱ و ۴۵ روز</li>
+        <li class="right">۱۰۵ و ۶۹ روز</li>
+      </ol>
+      <details><summary>پاسخ تشریحی</summary><div>
+        <span class="ans">گزینهٔ ۴ — ۱۰۵ و ۶۹ روز</span>
+        <p><b>گام ۰ — ترتیب اعداد را درست بخوان!</b> سؤال گفته «به‌ترتیب»، پس:</p>
+        <ul>
+          <li>گردش حساب‌های <b>پرداختنی</b> = ۱۰</li>
+          <li>گردش حساب‌های <b>دریافتنی</b> = ۸</li>
+          <li>گردش <b>موجودی کالا</b> = ۶</li>
+        </ul>
+        <p><b>گام ۱ — تبدیل «گردش» به «دوره»</b> (سؤال خودش دفعات گردش را داده، پس فقط ۳۶۰ را تقسیم کن):</p>
+        <p class="fx" style="display:block;text-align:center">دورهٔ گردش موجودی = 360 / 6 = 60 روز</p>
+        <p class="fx" style="display:block;text-align:center">دورهٔ وصول مطالبات = 360 / 8 = 45 روز</p>
+        <p class="fx" style="display:block;text-align:center">دورهٔ گردش ح. پرداختنی = 360 / 10 = 36 روز</p>
+        <p><b>گام ۲ — دورهٔ عملیاتی:</b></p>
+        <p class="fx" style="display:block;text-align:center">60 + 45 = 105 روز</p>
+        <p><b>گام ۳ — دورهٔ گردش وجه نقد:</b></p>
+        <p class="fx" style="display:block;text-align:center">105 &minus; 36 = 69 روز</p>
+        <div class="box trap" style="margin-top:10px">
+          <p><b>تلهٔ اصلی این تست:</b> دو گزینه عدد ۱۰۵ دارند (۱ و ۴). اگر در گام ۳ به‌جای <b>تفریق</b>، جمع می‌کردی به ۱۴۱ می‌رسیدی و گزینهٔ ۱ را می‌زدی. و اگر ترتیب اعداد را جابه‌جا می‌خواندی (گردش موجودی را ۱۰ می‌گرفتی)، به گزینهٔ ۳ می‌رسیدی. هر دو خطا قابل پیشگیری‌اند.</p>
+        </div>
+      </div></details>
+    </div>
+
+    <!-- ============ فرمول‌نامه ============ -->
+    <h2 id="cheatsheet"><span class="n">۱۳</span>فرمول‌نامه و چک‌لیست مرور</h2>
+
+    <div class="cheat">
+      <h3>الف) صورت‌های مالی</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>عنوان</th><th>فرمول</th></tr></thead>
+          <tbody>
+            <tr><td>معادلهٔ حسابداری</td><td class="num">دارایی = بدهی + حقوق صاحبان سهام</td></tr>
+            <tr><td>حقوق صاحبان سهام</td><td class="num">کل دارایی &minus; کل بدهی</td></tr>
+            <tr><td>سرمایه</td><td class="num">تعداد سهام منتشره × قیمت اسمی هر سهم</td></tr>
+            <tr><td>صرف / کسر سهام</td><td class="num">(قیمت فروش &minus; قیمت اسمی) × تعداد سهام</td></tr>
+            <tr><td>اندوختهٔ قانونی</td><td class="num">۵٪ سود خالص هر سال، تا سقف ۱۰٪ سرمایهٔ ثبت‌شده</td></tr>
+            <tr><td>خالص سرمایه در گردش</td><td class="num">دارایی جاری &minus; بدهی جاری</td></tr>
+            <tr><td>سود ناخالص</td><td class="num">فروش &minus; بهای تمام شدهٔ کالای فروش رفته</td></tr>
+            <tr><td>سود عملیاتی (EBIT)</td><td class="num">سود ناخالص &minus; هزینه‌های عملیاتی و استهلاک</td></tr>
+            <tr><td>سود خالص</td><td class="num">(EBIT &minus; بهره) &minus; مالیات</td></tr>
+            <tr><td>EPS</td><td class="num">سود متعلق به سهامداران عادی ÷ تعداد سهام عادی</td></tr>
+            <tr><td>بهای تمام شدهٔ کالای فروش رفته</td><td class="num">موجودی اول دوره + خرید طی دوره &minus; موجودی پایان دوره</td></tr>
+            <tr><td>استهلاک سالانه (خط مستقیم)</td><td class="num">(بهای تمام شده &minus; ارزش اسقاط) ÷ عمر مفید</td></tr>
+            <tr><td>ارزش دفتری</td><td class="num">بهای تمام شده &minus; استهلاک انباشته</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="cheat">
+      <h3>ب) نسبت‌های نقدینگی <span style="font-weight:400;color:var(--text-soft);font-size:.9rem">(مخرج همه: بدهی جاری — بجز دورهٔ استقامت)</span></h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>نسبت</th><th>فرمول</th></tr></thead>
+          <tbody>
+            <tr><td>نسبت جاری</td><td class="num">دارایی جاری ÷ بدهی جاری</td></tr>
+            <tr><td>نسبت آنی (سریع / اسیدی)</td><td class="num">(دارایی جاری &minus; موجودی کالا &minus; پیش‌پرداخت) ÷ بدهی جاری</td></tr>
+            <tr><td>نسبت نقد</td><td class="num">(وجه نقد + اوراق بهادار سریع‌المعامله) ÷ بدهی جاری</td></tr>
+            <tr><td>نسبت وجه نقد</td><td class="num">وجه نقد ÷ بدهی جاری</td></tr>
+            <tr><td>دورهٔ استقامت</td><td class="num">دارایی جاری ÷ متوسط هزینه‌های عملیاتی روزانه</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="cheat">
+      <h3>ج) نسبت‌های فعالیت و چرخهٔ عملیاتی</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>نسبت</th><th>فرمول</th></tr></thead>
+          <tbody>
+            <tr><td>گردش موجودی کالا</td><td class="num">COGS ÷ متوسط موجودی کالا</td></tr>
+            <tr><td>دورهٔ گردش موجودی کالا</td><td class="num">۳۶۰ ÷ گردش موجودی کالا</td></tr>
+            <tr><td>گردش حساب‌های دریافتنی</td><td class="num">فروش نسیه ÷ متوسط حساب‌های دریافتنی</td></tr>
+            <tr><td>دورهٔ وصول مطالبات</td><td class="num">۳۶۰ ÷ گردش ح. دریافتنی = متوسط ح.د ÷ فروش نسیهٔ روزانه</td></tr>
+            <tr><td>گردش حساب‌های پرداختنی</td><td class="num">COGS ÷ متوسط حساب‌های پرداختنی</td></tr>
+            <tr><td>دورهٔ گردش ح. پرداختنی (مهلت پرداخت)</td><td class="num">۳۶۰ ÷ گردش ح. پرداختنی</td></tr>
+            <tr><td>گردش دارایی‌ها</td><td class="num">فروش ÷ کل دارایی‌ها</td></tr>
+            <tr><td>گردش دارایی‌های ثابت</td><td class="num">فروش ÷ دارایی‌های ثابت</td></tr>
+            <tr><td>گردش سرمایه در گردش خالص</td><td class="num">فروش ÷ خالص سرمایه در گردش</td></tr>
+            <tr><td>نسبت سرمایه‌بری</td><td class="num">کل دارایی‌ها ÷ فروش</td></tr>
+            <tr><td><b>دورهٔ عملیاتی</b></td><td class="num">دورهٔ گردش موجودی + دورهٔ وصول مطالبات</td></tr>
+            <tr><td><b>دورهٔ گردش وجه نقد</b></td><td class="num">دورهٔ عملیاتی &minus; دورهٔ گردش ح. پرداختنی</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="cheat">
+      <h3>چک‌لیست مرور سریع</h3>
+      <ul>
+        <li>ترازنامه = <b>عکس</b> در یک <b>تاریخ</b> (صورت وضعیت مالی) · صورت سود و زیان = <b>فیلم</b> طی یک <b>دوره</b> (صورت عملکرد مالی).</li>
+        <li>دارایی/بدهی <b>جاری</b> = ظرف <b>۱ سال یا ۱ چرخهٔ عملیاتی</b>. <b>اوراق قرضه بدهی بلندمدت است.</b></li>
+        <li>اندوختهٔ قانونی: <b>۵٪ سود خالص</b> هر سال تا سقف <b>۱۰٪ سرمایه</b>.</li>
+        <li>صرف سهام = فروش بالاتر از اسمی · کسر سهام = فروش پایین‌تر از اسمی (داخل پرانتز).</li>
+        <li>NWC = دارایی جاری &minus; بدهی جاری؛ نسبت جاری &lt; ۱ ← NWC منفی. خرید دارایی ثابت با نقد ← NWC کم.</li>
+        <li><b>بهترین معیار کارایی شرکت = سود عملیاتی (EBIT)</b>.</li>
+        <li>موجودی پایان دوره ↑ ← COGS ↓ ← سود ناخالص ↑. (و برعکس برای موجودی اول دوره و خرید.)</li>
+        <li>تورم: <b>FIFO</b> ← سود بیشتر و موجودی پایان دوره باارزش‌تر؛ <b>LIFO</b> ← سود کمتر و مالیات کمتر.</li>
+        <li>استهلاک = هزینهٔ <b>غیرنقدی</b> و <b>برآوردی</b>؛ در مدیریت مالی همیشه <b>خط مستقیم</b>.</li>
+        <li>تحلیل افقی ← مبنا یک <b>سال</b>؛ تحلیل عمودی ← مبنا یک <b>قلم</b> (سود و زیان: فروش؛ ترازنامه: کل دارایی).</li>
+        <li>مخرج همهٔ نسبت‌های نقدینگی = <b>بدهی جاری</b> (بجز دورهٔ استقامت).</li>
+        <li><b>گردش</b> ← صورت: فروش (یا COGS برای موجودی و پرداختنی، فروش نسیه برای دریافتنی). <b>دوره</b> ← صورت: ۳۶۰، مخرج: همان گردش.</li>
+        <li>دورهٔ عملیاتی = گردش موجودی + وصول مطالبات؛ دورهٔ گردش وجه نقد = دورهٔ عملیاتی &minus; مهلت پرداخت بدهی.</li>
+      </ul>
+    </div>
+
+    <div class="box tip">
+      <div class="box-title">🔜 جلسهٔ بعد</div>
+      <p>ادامهٔ نسبت‌های مالی: نسبت‌های <b>اهرمی (بدهی)</b>، <b>سودآوری</b> و <b>ارزش بازار</b>، به‌همراه تحلیل دوپون.</p>
+    </div>
+
+    <div class="pager">
+      <a href="01-koliyat.html">← جلسهٔ ۱: کلیات</a>
+      <a href="../index.html">فهرست جلسه‌ها</a>
+    </div>
+
+  </article>
+</div>
+
+<button class="to-top" type="button" aria-label="برگشت به بالا">↑</button>
+
+<footer class="site-footer">
+  <div class="wrap">جزوهٔ شخصی مدیریت مالی — کنکور کارشناسی ارشد · جلسهٔ ۲: صورت‌های مالی و تجزیه و تحلیل آن</div>
+</footer>
+
+</body>
+</html>
